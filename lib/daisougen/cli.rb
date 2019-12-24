@@ -4,9 +4,9 @@ require "thor"
 
 module Daisougen
   class CLI < Thor
-    desc "daisougen", "大草原ガチャ"
+    desc "gacha", "大草原ガチャ"
     option :emoji, aliases: :e
-    def daisougen
+    def gacha
       result = Daisougen.gacha
 
       message = if options.key?(:emoji)
