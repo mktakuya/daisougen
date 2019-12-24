@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Daisougen do
   it "has a version number" do
     expect(Daisougen::VERSION).not_to be nil
